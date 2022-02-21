@@ -1,4 +1,4 @@
-# Opción 1 Sarvamos df1 en formato json 
+# Opción 1 df1 en formato json 
 #----------------------------------------------------------------------------#
 import os # importamos la libriria del sistes operativo como os 
 
