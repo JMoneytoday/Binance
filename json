@@ -20,13 +20,13 @@ btc_price = {'error':False}
 
 #valid intervals - 1m, 3m, 5m, 15m, 30m, 1h, 2h, 4h, 6h, 8h, 12h, 1d, 3d, 1w, 1M
 
-timestamp = client._get_earliest_valid_timestamp('BTCUSDT', '1d') # Almacenamos la temporarida diaria en la variable timestamp
+timestamp = client._get_earliest_valid_timestamp('BTCUSDT', '1d') # Almacenamos los datos en temporarida diaria(1 Día) en la variable timestamp
 
 #-----------------------------------------------------------------#
 
-data =  client.get_historical_klines('BTCUSDT', '1d', timestamp, limit=1000) # Guardatos los datos en la varible data
+data =  client.get_historical_klines('BTCUSDT', '1d', timestamp, limit=1000) # Guardando los datos en la varible data
 
-# se abre un archivo y se vuercan los datos utilizando json.dump
+# se abre un archivo y se vuelcan los datos en formato json.dump
 
 with open('BTCUSDT_1d.json', 'w') as e:
     json.dump(data, e)
