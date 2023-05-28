@@ -13,6 +13,16 @@ https://moneytoday.es/guia-de-binance-and-moneytoday-parte-ii/
 pip install python-binance
 pip install pandas
 ```
-*Importa las bibliotecas necesarias*
+**Importa las bibliotecas necesarias**
+
+```
+import numpy as np
+import pandas as pd
+#import yfinance as yf
+import warnings
+warnings.filterwarnings("ignore")
+```
 ![Aquí la descripción de la imagen por si no carga](https://github.com/JMoneytoday/Binance/blob/main/2023-05-28.png)
+--
+Obtenemos los datos y se guardan en un archivo CSV
 
