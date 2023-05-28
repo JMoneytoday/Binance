@@ -32,7 +32,6 @@ Obtenemos los datos y se guardan en un archivo CSV
 from binance.client import Client
 client = Client("api_key", "api_secret")
 ```
---
 ´´´
 PRECIO_BTCUSDT = client.get_symbol_ticker(symbol="BTCUSDT")
 print(PRECIO_BTCUSDT)
