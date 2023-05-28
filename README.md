@@ -7,7 +7,12 @@ el link de referencia es: 
 
 https://moneytoday.es/guia-de-binance-and-moneytoday-parte-ii/
 
-**Lo primero que hacer es instalar las librerías para que tu script funciones**
+**Lo primero que debes hacer es instalar las librerías para que tu script funciones**
+
+```
+pip install python-binance
+pip install pandas
+```
 
 pip install python-binance 
 ![Aquí la descripción de la imagen por si no carga](https://github.com/JMoneytoday/Binance/blob/main/2023-05-28.png)
