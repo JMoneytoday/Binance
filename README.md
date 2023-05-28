@@ -18,6 +18,9 @@ pip install pandas
 ```
 import numpy as np
 import pandas as pd
+import json
+import csv
+from datetime import datetime
 #import yfinance as yf
 import warnings
 warnings.filterwarnings("ignore")
@@ -25,4 +28,13 @@ warnings.filterwarnings("ignore")
 ![Aquí la descripción de la imagen por si no carga](https://github.com/JMoneytoday/Binance/blob/main/2023-05-28.png)
 --
 Obtenemos los datos y se guardan en un archivo CSV
+```
+from binance.client import Client
+client = Client("api_key", "api_secret")
+```
+--
+´´´
+PRECIO_BTCUSDT = client.get_symbol_ticker(symbol="BTCUSDT")
+print(PRECIO_BTCUSDT)
+´´´
 
