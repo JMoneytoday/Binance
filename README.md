@@ -1,14 +1,14 @@
 # Binance
-Aquí compartimos todo nuestro desarrollo sobre sistema de inversión con Python.
-
-Lee todo nuetro articulo en nuetra página web 
-
-https://moneytoday.es/guia-de-binance-api-python/
-
-Donaciones en para Moneytoday.es:
-
-https://moneytoday.es/contribuye-con-moneytoday/
-
 Estoy actualizando está quía de Binance en la fecha domingo 28/05/2023
+
+Les dejo las capturas de pantallas usando los pasos descritos en el blog, 
+
+el link de referencia es: 
+
+https://moneytoday.es/guia-de-binance-and-moneytoday-parte-ii/
+
+**Lo primero que hacer es instalar las librerías para que tu script funciones**
+
+pip install python-binance 
 ![Aquí la descripción de la imagen por si no carga](https://github.com/JMoneytoday/Binance/blob/main/2023-05-28.png)
 
