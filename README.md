@@ -13,5 +13,6 @@ https://moneytoday.es/guia-de-binance-and-moneytoday-parte-ii/
 pip install python-binance
 pip install pandas
 ```
+*Importa las bibliotecas necesarias*
 ![Aquí la descripción de la imagen por si no carga](https://github.com/JMoneytoday/Binance/blob/main/2023-05-28.png)
 
