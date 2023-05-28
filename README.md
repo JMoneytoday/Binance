@@ -8,3 +8,6 @@ https://moneytoday.es/guia-de-binance-api-python/
 Donaciones en para Moneytoday.es:
 
 https://moneytoday.es/contribuye-con-moneytoday/
+
+Estoy actualizando está quía de Binance en la fecha domingo 28/05/2023
+
